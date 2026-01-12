@@ -4,97 +4,129 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyJourney - Travel & Career Adventures</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header -->
-    <header>
+    
+    <!-- HEADER -->
+    <header class="header">
         <div class="container">
-            <div class="header-content">
-                <div class="logo">MyJourney</div>
-                <nav>
-                    <ul>
-                        <li><button class="filter-btn active" data-filter="all">All Journey</button></li>
-                        <li><button class="filter-btn" data-filter="travel">Travel Journey</button></li>
-                        <li><button class="filter-btn" data-filter="career">Career Journey</button></li>
-                    </ul>
-                </nav>
-            </div>
+            <h1 class="logo">Naufal Journey</h1>
+            <nav class="nav">
+                <a href="#all" class="nav-link active">All Journey</a>
+                <a href="#travel" class="nav-link">Travel Journey</a>
+                <a href="#career" class="nav-link">Career Journey</a>
+            </nav>
         </div>
     </header>
 
-    <!-- Hero -->
+    <!-- HERO -->
     <section class="hero">
         <div class="container">
-            <h1>✨ Selamat Datang di MyJourney ✨</h1>
-            <p>Jelajahi perjalanan hidup saya melalui petualangan dan karir</p>
+            <h2 class="hero-title">✨ Selamat Datang di MyJourney ✨</h2>
+            <p class="hero-subtitle">Jelajahi perjalanan hidup saya melalui petualangan dan karir</p>
         </div>
     </section>
 
-    <!-- Journeys -->
-    <section class="journeys-section">
+    <!-- JOURNEY CARDS -->
+    <section class="journeys">
         <div class="container">
-            <h2 class="section-title" id="sectionTitle">Semua Journey</h2>
-            <div class="journeys-grid" id="journeysGrid"></div>
+            <h3 class="section-title">Semua Journey</h3>
+            
+            <div class="cards-grid">
+                <!-- Kementrian Perhubungan Arsip -->
+                <a href="" class="card">
+                    <div class="card-image">
+                        <img src="img/arsip1.jpeg" alt="Arsip Kementrian Perhubungan">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-badge badge-career">💼 Career</span>
+                        <h4 class="card-title">Mencari Ilmu akan sistem yang ada di Kementrian Perhubungan</h4>
+                        <p class="card-description">
+                            Setelah 3 tahun bekerja keras, akhirnya mendapat promosi menjadi Senior Developer. 
+                            Ini adalah pencapaian besar dalam karir saya.
+                        </p>
+                        <span class="card-date">📅 8 April 2024</span>
+                    </div>
+                </a>
+
+                <!-- Tahura -->
+                <a href="" class="card">
+                    <div class="card-image">
+                        <img src="img/tahura1.jpeg" alt="Tahura">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-badge badge-travel">✈️ Travel</span>
+                        <h4 class="card-title">Petualangan ke Tamah Hutan Raya</h4>
+                        <p class="card-description">
+                            Pengalaman luar biasa mendaki Gunung Bromo di pagi hari. 
+                            Pemandangan sunrise yang memukau dan kabut yang menyelimuti kawah.
+                        </p>
+                        <span class="card-date">📅 07 January 2023</span>
+                    </div>
+                </a>
+
+                <!-- Merapi -->
+                <a href="" class="card">
+                    <div class="card-image">
+                        <img src="img/merapi.jpg" alt="Merapi">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-badge badge-travel">✈️ Travel</span>
+                        <h4 class="card-title">Traveling ke LAVA TOUR Jeep Wisata Kaliurang-Merapi</h4>
+                        <p class="card-description">
+                            Pengalaman luar biasa mendaki Gunung Bromo di pagi hari. 
+                            Pemandangan sunrise yang memukau dan kabut yang menyelimuti kawah.
+                        </p>
+                        <span class="card-date">📅 08 Nobember 2019</span>
+                    </div>
+                </a>
+
+                <!-- Copy paste card di atas dan ganti kontennya -->
+
+            </div>
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- FOOTER -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <!-- Left Section -->
+                
+                <!-- Left -->
                 <div class="footer-section">
-                    <h3 class="footer-name">Naufal Zul Faza</h3>
-                    <p class="footer-about">
-                        Seorang petualang yang mencintai eksplorasi dan teknologi. 
-                        Berbagi cerita perjalanan hidup melalui travel dan career journey.
-                    </p>
+                    <h3 class="footer-title">Naufal Zul Faza</h3>
+                    <p class="footer-text">Naufal Zul Faza - Travel, Culinary, and Technology</p>
                 </div>
 
-                <!-- Center Section -->
+                <!-- Center -->
                 <div class="footer-section">
                     <h3 class="footer-title">Quick Links</h3>
-                    <div class="social-links">
-                        <a href="https://instagram.com/yourprofile" target="_blank" class="social-link">
-                            <span class="social-icon">📷</span> Instagram
-                        </a>
-                        <a href="https://facebook.com/yourprofile" target="_blank" class="social-link">
-                            <span class="social-icon">👤</span> Facebook
-                        </a>
-                        <a href="https://tiktok.com/@yourprofile" target="_blank" class="social-link">
-                            <span class="social-icon">🎵</span> TikTok
-                        </a>
-                        <a href="https://youtube.com/@yourprofile" target="_blank" class="social-link">
-                            <span class="social-icon">▶️</span> YouTube
-                        </a>
-                        <a href="https://linkedin.com/in/yourprofile" target="_blank" class="social-link">
-                            <span class="social-icon">💼</span> LinkedIn
-                        </a>
-                        <a href="https://github.com/yourprofile" target="_blank" class="social-link">
-                            <span class="social-icon">💻</span> GitHub
-                        </a>
+                    <a href="https://www.linkedin.com/in/naufalzulfaza2003/?profileId=ACoAACn3ooIBU4aFs30rvlg_rdftwe6igx0fAAI" target="_blank" class="footer-link">LinkedIn</a>
+                    <a href="https://www.instagram.com/_naufaliaaa/" target="_blank" class="footer-link">Instagram</a>
+                    <a href="https://www.facebook.com/profile.php?id=100011473811622&locale=id_ID" target="_blank" class="footer-link">Facebook</a>
+                    <a href="https://www.tiktok.com/@naufaliaaa._" target="_blank" class="footer-link">TikTok</a>
+                    <a href="https://www.youtube.com/channel/UCK2yPLXG4KELYmd8Lr_w_FA?app=desktop&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnjJqUgRbgB4RK0NNAF7ybBEsc8DarYD69dMdcLQex36X22qJaMm1fNgfsQUY_aem_waubwxHZgvIFm56mDG3zMQ" target="_blank" class="footer-link">YouTube</a>
+                    <a href="https://github.com/Naufaliaaa" target="_blank" class="footer-link">GitHub</a>
+                </div>
+
+                <!-- Right -->
+                <div class="footer-section">
+                    <h3 class="footer-title">Subscribe to our Newsletter</h3>
+                    <p class="footer-text">Subscribe to our mailing list to receive daily updates direct to your inbox!</p>
+                    <div class="newsletter-box">
+                        <input type="email" placeholder="Enter your email" class="newsletter-input">
+                        <button class="newsletter-btn">→</button>
                     </div>
                 </div>
 
-                <!-- Right Section -->
-                <div class="footer-section">
-                    <h3 class="footer-title">Contact Me</h3>
-                    <div class="contact-info">
-                        <a href="mailto:naufal@example.com" class="contact-link">
-                            <span class="contact-icon">✉️</span>
-                            naufal@example.com
-                        </a>
-                    </div>
-                </div>
             </div>
 
             <div class="footer-bottom">
-                <p>&copy; 2026 MyJourney by Naufal Zul Faza. All rights reserved.</p>
+                <p>© 2025 Naufal Zul Faza. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
-    <script src="js/script.js"></script>
 </body>
 </html>

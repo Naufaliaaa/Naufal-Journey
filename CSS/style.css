@@ -91,6 +91,7 @@ a {
     border: 2px solid transparent;
 }
 
+/* Default hover untuk All Journey - Ungu (Pink + Blue) */
 .nav-link:hover,
 .nav-link.active {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -98,14 +99,41 @@ a {
     border-color: #667eea;
 }
 
+/* Travel Journey - Pink */
+.nav-link[href*="travel"]:hover,
+.nav-link[href*="travel"].active {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    color: white;
+    border-color: #f093fb;
+}
+
+/* Career Journey - Blue */
+.nav-link[href*="career"]:hover,
+.nav-link[href*="career"].active {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    color: white;
+    border-color: #4facfe;
+}
+
 /* ==========================================
    HERO SECTION
 ========================================== */
+/* Default Hero - Ungu (All Journey) */
 .hero {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 4rem 0;
     text-align: center;
     color: white;
+}
+
+/* Hero untuk Travel Journey - Pink */
+.hero.hero-travel {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+/* Hero untuk Career Journey - Blue */
+.hero.hero-career {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
 }
 
 .hero-title {

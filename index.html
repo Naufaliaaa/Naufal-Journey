@@ -182,7 +182,7 @@
                 </a>
 
                 <!-- Tahura -->
-                <a href="Detail/tahura.html" class="card">
+                <a href="Detail/tahura.html" class="card hidden">
                     <div class="card-image">
                         <img src="img/tahura/tahura1.jpeg" alt="Tahura">
                     </div>
@@ -198,7 +198,7 @@
                 </a>
 
                 <!-- Curug Citambur Cianjur -->
-                <a href="Detail/curug" class="card">
+                <a href="Detail/curug" class="card hidden">
                     <div class="card-image">
                         <img src="img/curug/curug1.jpg" alt="Curug Citambur Cianjur">
                     </div>
@@ -214,7 +214,7 @@
                 </a>
 
                 <!-- Situ Gunung Suspension Bridge -->
-                <a href="Detail/situ.html" class="card">
+                <a href="Detail/situ.html" class="card hidden">
                     <div class="card-image">
                         <img src="img/situ/situ1.jpg" alt="Situ Gunung Suspension Bridge">
                     </div>
@@ -230,13 +230,13 @@
                 </a>
 
                 <!-- Merapi -->
-                <a href="Detail/merapi.html" class="card">
+                <a href="Detail/merapi.html" class="card hidden">
                     <div class="card-image">
                         <img src="img/merapi/merapi.jpg" alt="Merapi">
                     </div>
                     <div class="card-content">
                         <span class="card-badge badge-travel">✈️ Travel</span>
-                        <h4 class="card-title">LAVA TOUR Jeep Wisata Kaliurang-Merapi</h4>
+                        <h4 class="card-title">LAVA TOUR Jeep Wifi Kaliurang-Merapi</h4>
                         <p class="card-description">
                             Petualangan seru dengan Jeep menjelajahi bekas letusan Gunung Merapi. 
                             Melihat langsung jejak lahar dan keindahan alam yang spektakuler.
@@ -246,8 +246,24 @@
                 </a>
 
             </div>
+            
+            <!-- Show All Button -->
+            <div class="show-all-wrapper">
+                <button class="show-all-btn" onclick="showAllJourney()">Show All Journey ↑</button>
+            </div>
         </div>
     </section>
+
+    <script>
+        function showAllJourney() {
+            const hiddenCards = document.querySelectorAll('.card.hidden');
+            hiddenCards.forEach(card => {
+                card.classList.remove('hidden');
+            });
+            const showAllBtn = document.querySelector('.show-all-btn');
+            showAllBtn.classList.add('hidden');
+        }
+    </script>
 
     <!-- FOOTER -->
     <footer class="footer">

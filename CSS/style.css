@@ -596,3 +596,62 @@ body.career-page .back-button:hover {
         grid-template-columns: 1fr;
     }
 }
+
+/* ==========================================
+   SHOW ALL JOURNEY FEATURE
+========================================== */
+.card.hidden {
+    display: none;
+}
+
+.show-all-wrapper {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.show-all-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 1rem 2.5rem;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: none;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.show-all-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+}
+
+.show-all-btn:active {
+    transform: translateY(-1px);
+}
+
+.show-all-btn.hidden {
+    display: none;
+}
+
+/* Show All Button untuk Travel Page */
+body.travel-page .show-all-btn {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    box-shadow: 0 4px 15px rgba(240, 147, 251, 0.3);
+}
+
+body.travel-page .show-all-btn:hover {
+    box-shadow: 0 8px 25px rgba(240, 147, 251, 0.4);
+}
+
+/* Show All Button untuk Career Page */
+body.career-page .show-all-btn {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    box-shadow: 0 4px 15px rgba(79, 172, 254, 0.3);
+}
+
+body.career-page .show-all-btn:hover {
+    box-shadow: 0 8px 25px rgba(79, 172, 254, 0.4);
+}

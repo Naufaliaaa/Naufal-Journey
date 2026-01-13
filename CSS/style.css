@@ -59,6 +59,7 @@ a {
     gap: 1rem;
 }
 
+/* Logo Default (All Journey - Ungu) */
 .logo {
     font-size: 1.8rem;
     font-weight: bold;
@@ -72,6 +73,22 @@ a {
 
 .logo:hover {
     transform: scale(1.05);
+}
+
+/* Logo untuk Travel Journey - Pink */
+body.travel-page .logo {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Logo untuk Career Journey - Blue */
+body.career-page .logo {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* Navigation */
@@ -302,6 +319,16 @@ a {
     border: 3px solid #667eea;
 }
 
+/* Author Avatar untuk Travel Page */
+body.travel-page .author-avatar {
+    border-color: #f093fb;
+}
+
+/* Author Avatar untuk Career Page */
+body.career-page .author-avatar {
+    border-color: #4facfe;
+}
+
 .author-name {
     font-weight: bold;
     font-size: 1.1rem;
@@ -392,6 +419,7 @@ a {
     margin-top: 3rem;
 }
 
+/* Back Button Default (All Journey - Ungu) */
 .back-button {
     display: inline-block;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -405,6 +433,24 @@ a {
 .back-button:hover {
     transform: translateY(-3px);
     box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+}
+
+/* Back Button untuk Travel Page - Pink */
+body.travel-page .back-button {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+body.travel-page .back-button:hover {
+    box-shadow: 0 8px 20px rgba(240, 147, 251, 0.4);
+}
+
+/* Back Button untuk Career Page - Blue */
+body.career-page .back-button {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+body.career-page .back-button:hover {
+    box-shadow: 0 8px 20px rgba(79, 172, 254, 0.4);
 }
 
 /* ==========================================

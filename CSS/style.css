@@ -571,9 +571,31 @@ body.career-page .back-button:hover {
         grid-template-columns: repeat(2, 1fr);
     }
     
+    /* Mobile Header - Logo Center & Nav Below */
+    .header .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .logo {
+        order: 1;
+        margin-bottom: 0.5rem;
+    }
+    
     .nav {
+        order: 2;
         width: 100%;
         justify-content: center;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 0.5rem;
+        gap: 0.3rem;
+    }
+    
+    .nav-link {
+        white-space: nowrap;
+        flex-shrink: 0;
     }
 }
 
@@ -586,14 +608,53 @@ body.career-page .back-button:hover {
         font-size: 1.5rem;
     }
     
-    .nav-link {
-        padding: 0.5rem 1rem;
-        font-size: 0.9rem;
-    }
-    
     .gallery-grid,
     .skills-grid {
         grid-template-columns: 1fr;
+    }
+    
+    /* Mobile Header - Logo Center & Nav Below */
+    .header .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .logo {
+        order: 1;
+        margin-bottom: 0.5rem;
+        font-size: 1.4rem;
+    }
+    
+    .nav {
+        order: 2;
+        width: 100%;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 0.5rem;
+        gap: 0.2rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    
+    .nav-link {
+        white-space: nowrap;
+        flex-shrink: 0;
+        padding: 0.4rem 0.6rem;
+        font-size: 0.8rem;
+    }
+}
+
+/* Specific breakpoint for iPhone 15 Pro and similar small devices */
+@media (max-width: 400px) {
+    .logo {
+        font-size: 1.3rem;
+    }
+    
+    .nav-link {
+        padding: 0.4rem 0.5rem;
+        font-size: 0.75rem;
     }
 }
 

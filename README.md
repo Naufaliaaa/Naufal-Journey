@@ -40,3 +40,4 @@ Simply open `index.html` in your web browser.
     └── (images for posts)
 ```
 
+Pembuat nya Naufal Ganteng Banget hehe

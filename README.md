@@ -41,3 +41,4 @@ Simply open `index.html` in your web browser.
 ```
 
 Pembuat nya Naufal Ganteng Banget hehe
+Semoga dengan di buatnya website ini aku menjadi lebih semnagat untuk berkembang dan memberikan manfaat pada banyak orang terutama orang sekitar

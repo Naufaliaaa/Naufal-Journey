@@ -40,5 +40,5 @@ Simply open `index.html` in your web browser.
     └── (images for posts)
 ```
 
-Pembuat nya Naufal Ganteng Banget hehe irih bilang bossss..... !!!!
-Semoga dengan di buatnya website ini aku menjadi lebih semnagat untuk berkembang dan memberikan manfaat pada banyak orang terutama orang sekitar
+Pembuat nya Naufal Ganteng Banget hehe irih bilang bossss..... !!!!!
+Semoga dengan di buatnya website ini aku menjadi lebih semnagat untuk berkembang dan memberikan manfaat pada banyak orang terutama orang sekitar Amiin 

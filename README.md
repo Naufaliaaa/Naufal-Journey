@@ -42,3 +42,5 @@ Simply open `index.html` in your web browser.
 
 Pembuat nya Naufal Ganteng Banget hehehe irih bilang bossss..... Hhahaah hayuuk!!!!!
 Semoga dengan di buatnya website ini aku menjadi lebih semnagat untuk berkembang dan memberikan manfaat pada banyak orang terutama orang sekitar Amiin 
+
+Haloo semua sekarang aku udah lulus kuliah dan besok saya test magang bakti BCA semua lolos yaaa do'ain gueh hehehhe

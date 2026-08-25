@@ -1,46 +1,73 @@
 # Naufal Journey
 
-Personal blog documenting my travel adventures and career journey.
+**Naufal Journey** is a personal portfolio and blog website that documents Naufal Zul Faza's journey in **travel, technology, education, and career development**.
+
+The website serves as a digital journal where visitors can explore experiences, activities, projects, professional events, internships, and trips through dedicated posts and photo documentation.
 
 ## About
 
-This is a simple static website showcasing my journey through:
+Naufal Journey is designed to showcase personal experiences and milestones in a simple, lightweight, and responsive static website.
 
-- **Travel**: Various trips to beautiful destinations
-- **Career**: Work experiences, internships, and professional events
+The content is divided into two main categories:
+
+* **Travel** — Stories, experiences, destinations, and documentation from various trips.
+* **Career** — Experiences related to education, internships, projects, technology events, organizations, and professional development.
+
+## Features
+
+* Personal journey blog
+* Travel and career categories
+* Individual detail pages for each post
+* Image-based documentation
+* Simple and responsive interface
+* Lightweight static website
+* No database or backend required
 
 ## Tech Stack
 
-- HTML5
-- CSS3
-- Vanilla JavaScript
+* HTML5
+* CSS3
+* Vanilla JavaScript
 
-## How to View
+## Website Structure
 
-Simply open `index.html` in your web browser.
+```text
+├── index.html              # Main page with all journey posts
+├── travel.html             # Travel journey posts
+├── career.html             # Career journey posts
+├── CSS/
+│   └── style.css           # Website styling
+├── Detail/
+│   └── ...                 # Individual journey detail pages
+└── img/
+    └── ...                 # Images and visual assets
+```
 
 ## Pages
 
-- `index.html` - All journey posts
-- `travel.html` - Travel posts only
-- `career.html` - Career posts only
-- `Detail/` - Individual post pages
+| Page          | Description                                |
+| ------------- | ------------------------------------------ |
+| `index.html`  | Main page containing all journey posts     |
+| `travel.html` | Displays travel-related posts              |
+| `career.html` | Displays career and professional posts     |
+| `Detail/`     | Contains individual pages for each journey |
 
-## Structure
+## How to Run
 
-```
-├── index.html
-├── travel.html
-├── career.html
-├── CSS/
-│   └── style.css
-├── Detail/
-│   └── (individual post pages)
-└── img/
-    └── (images for posts)
+This project does not require a server, database, or additional dependencies.
+
+Simply clone or download the repository and open:
+
+```text
+index.html
 ```
 
-Pembuat nya Naufal Ganteng Banget hehehe irih bilang bossss..... Hhahaah hayuuk!!!!!
-Semoga dengan di buatnya website ini aku menjadi lebih semnagat untuk berkembang dan memberikan manfaat pada banyak orang terutama orang sekitar Amiin 
+in any modern web browser.
 
-Haloo semua sekarang aku udah lulus kuliah dan besok saya test magang bakti BCA semua lolos yaaa do'ain gueh hehehhe
+## Purpose
+
+Naufal Journey was created as a personal digital space to **document experiences, preserve memories, share knowledge, and showcase personal growth** throughout Naufal's academic, professional, technological, and travel journey.
+
+## License
+
+This project is a personal website and its content belongs to the respective owner.

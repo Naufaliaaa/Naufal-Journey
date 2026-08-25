@@ -71,3 +71,5 @@ Naufal Journey was created as a personal digital space to **document experiences
 ## License
 
 This project is a personal website and its content belongs to the respective owner.
+
+by : Naufal Ganteng eaaa
